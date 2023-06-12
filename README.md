@@ -12,7 +12,8 @@ data-platform-operations-sql には、sqlの設定ファイルとして以下の
 
 * data-platform-operations-sql-header-data.sql（データ連携基盤 作業手順 - ヘッダデータ）
 * data-platform-operations-sql-item-data.sql（データ連携基盤 作業手順 - 明細データ）
-* data-platform-operations-sql-component-allocation-data.sql（データ連携基盤 作業手順 - 構成品目割当データ）
+* data-platform-operations-sql-item-operation-data.sql（データ連携基盤 作業手順 - 明細作業データ）
+* data-platform-operations-sql-item-operation-component-data.sql（データ連携基盤 作業手順 - 明細作業構成品目データ）
 * data-platform-operations-sql-header-doc-data.sql（データ連携基盤 作業手順 - ヘッダ文書データ)
 * data-platform-operations-sql-item-doc-data.sql（データ連携基盤 作業手順 - 明細文書データ)
 
