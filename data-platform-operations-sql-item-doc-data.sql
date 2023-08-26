@@ -12,9 +12,9 @@ CREATE TABLE `data_platform_operations_item_doc_data`
   
   PRIMARY KEY (`Operations`, `OperationsItem`, `DocType`, `DocVersionID`, `DocID`),
 
-  CONSTRAINT `DataPlatformOperationsItemDocData_fk` FOREIGN KEY (`Operations`, `OperationsItem`) REFERENCES `data_platform_operations_item_data` (`Operations`, `OperationsItem`),
-  CONSTRAINT `DataPlatformOperationsItemDocDataDocType_fk` FOREIGN KEY (`DocType`) REFERENCES `data_platform_doc_type_doc_type_data` (`DocType`),
-  CONSTRAINT `DataPlatformOperationsItemDocDataDocIssuerBusinessPartner_fk` FOREIGN KEY (`DocIssuerBusinessPartner`) REFERENCES `data_platform_business_partner_general_data` (`BusinessPartner`)
+  CONSTRAINT `DPFMOperationsItemDocData_fk` FOREIGN KEY (`Operations`, `OperationsItem`) REFERENCES `data_platform_operations_item_data` (`Operations`, `OperationsItem`),
+  CONSTRAINT `DPFMOperationsItemDocDataDocType_fk` FOREIGN KEY (`DocType`) REFERENCES `data_platform_doc_type_doc_type_data` (`DocType`),
+  CONSTRAINT `DPFMOperationsItemDocDataDocIssuerBusinessPartner_fk` FOREIGN KEY (`DocIssuerBusinessPartner`) REFERENCES `data_platform_business_partner_general_data` (`BusinessPartner`)
     
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4;
