@@ -1,7 +1,7 @@
 CREATE TABLE `data_platform_operations_header_doc_data`
 (
   `Operations`                     int(16) NOT NULL,
-  `DocType`                        varchar(20) NOT NULL,
+  `DocType`                        varchar(100) NOT NULL,
   `DocVersionID`                   int(4) NOT NULL,
   `DocID`                          varchar(100) NOT NULL,
   `FileExtension`                  varchar(20) NOT NULL,
